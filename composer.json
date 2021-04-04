@@ -1,0 +1,22 @@
+{
+  "name": "thekavish/laravel-api-response",
+  "description": "Formatted API response for Laravel projects",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kavish",
+      "email": "kavish619@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kavish\\APIResponse\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.3|^8.0",
+    "illuminate/http": "^5.0|^8.0"
+  }
+}
