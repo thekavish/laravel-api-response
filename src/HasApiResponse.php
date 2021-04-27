@@ -29,7 +29,7 @@ trait HasApiResponse
             'total_page' => $total_page
         ];
 
-        if (class_exists(Barryvdh\Debugbar\ServiceProvider::class) && function_exists('debug')) {
+        if (class_exists(\Barryvdh\Debugbar\ServiceProvider::class) && function_exists('debug')) {
             debug(compact('meta', 'data', 'errors'));
         }
 
